@@ -32,7 +32,7 @@ for iter in range(iters):
     
 print("Weights now: ")
 print(weights)
-print(Sigmoid(np.dot(X, weights)+bias))
+print(SigmoidL(np.dot(X, weights)+bias))
 
 
 # The code on one input sample that I coded first:
